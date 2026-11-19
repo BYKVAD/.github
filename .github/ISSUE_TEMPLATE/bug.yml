@@ -3,32 +3,28 @@ description: "The product doesn't do what it should: crash, wrong result, mislea
 type: Bug
 body:
   - type: textarea
-    id: summary
+    id: description
     attributes:
-      label: Summary
-      description: Briefly describe the problem in 2-5 sentences.
-    validations:
-      required: true
-  - type: textarea
-    id: purpose
-    attributes:
-      label: Purpose
-      description: Why does this need fixing? Who is affected, and how?
-    validations:
-      required: true
-  - type: textarea
-    id: scope
-    attributes:
-      label: Scope
-      description: This issue is done when...
+      label: Description
+      description: Fill in the sections below. The lines in <!-- --> are guidance and don't show in the issue.
       value: |
-        - [ ]
-        - [ ]
-        - [ ]
+        ## Summary
+        <!-- Briefly describe the problem in 2-5 sentences. What happens, and what should happen instead? -->
+
+
+        ## Purpose
+        <!-- Why does this need fixing? Who is affected, and how? -->
+
+
+        ## Scope
+        This issue is done when:
+
+        - [ ] 
+        - [ ] 
+        - [ ] 
+
+        ## Notes
+        <!-- Anything else that may help the person working on the issue. -->
+
     validations:
       required: true
-  - type: textarea
-    id: notes
-    attributes:
-      label: Notes
-      description: Anything else that may help the person working on the issue.

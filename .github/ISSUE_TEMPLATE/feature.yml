@@ -1,34 +1,30 @@
 name: Feature
-description: New or changed capability users notice, including improvements to existing tools.
+description: "New or changed capability users notice, including improvements to existing tools."
 type: Feature
 body:
   - type: textarea
-    id: summary
+    id: description
     attributes:
-      label: Summary
-      description: Briefly describe the feature in 2-5 sentences.
-    validations:
-      required: true
-  - type: textarea
-    id: purpose
-    attributes:
-      label: Purpose
-      description: Why is this needed?
-    validations:
-      required: true
-  - type: textarea
-    id: scope
-    attributes:
-      label: Scope
-      description: This issue is done when...
+      label: Description
+      description: Fill in the sections below. The lines in <!-- --> are guidance and don't show in the issue.
       value: |
-        - [ ]
-        - [ ]
-        - [ ]
+        ## Summary
+        <!-- Briefly describe the feature in 2-5 sentences. -->
+
+
+        ## Purpose
+        <!-- Why is this needed? -->
+
+
+        ## Scope
+        This issue is done when:
+
+        - [ ] 
+        - [ ] 
+        - [ ] 
+
+        ## Notes
+        <!-- Anything else that may help the person working on the issue. -->
+
     validations:
       required: true
-  - type: textarea
-    id: notes
-    attributes:
-      label: Notes
-      description: Anything else that may help the person working on the issue.

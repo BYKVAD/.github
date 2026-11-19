@@ -3,32 +3,28 @@ description: "Work users don't see: housekeeping, refactoring, tooling, CI, rele
 type: Task
 body:
   - type: textarea
-    id: summary
+    id: description
     attributes:
-      label: Summary
-      description: 'Briefly describe the task in 2-5 sentences. For a decision, title the issue "Decide: ..." and describe the options.'
-    validations:
-      required: true
-  - type: textarea
-    id: purpose
-    attributes:
-      label: Purpose
-      description: Why is this needed?
-    validations:
-      required: true
-  - type: textarea
-    id: scope
-    attributes:
-      label: Scope
-      description: This issue is done when...
+      label: Description
+      description: Fill in the sections below. The lines in <!-- --> are guidance and don't show in the issue.
       value: |
-        - [ ]
-        - [ ]
-        - [ ]
+        ## Summary
+        <!-- Briefly describe the task in 2-5 sentences. For a decision, title the issue "Decide: ..." and describe the options. -->
+
+
+        ## Purpose
+        <!-- Why is this needed? -->
+
+
+        ## Scope
+        This issue is done when:
+
+        - [ ] 
+        - [ ] 
+        - [ ] 
+
+        ## Notes
+        <!-- Anything else that may help the person working on the issue. -->
+
     validations:
       required: true
-  - type: textarea
-    id: notes
-    attributes:
-      label: Notes
-      description: Anything else that may help the person working on the issue.
