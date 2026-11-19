@@ -1,0 +1,34 @@
+name: Task
+description: "Work users don't see: housekeeping, refactoring, tooling, CI, release steps, research, decisions."
+type: Task
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: 'Briefly describe the task in 2-5 sentences. For a decision, title the issue "Decide: ..." and describe the options.'
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Why is this needed?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: This issue is done when...
+      value: |
+        - [ ]
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else that may help the person working on the issue.
